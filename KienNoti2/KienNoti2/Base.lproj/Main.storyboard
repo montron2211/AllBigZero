@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dang Ky View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DangKyViewController" customModule="KienNoti2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="bxA-6f-Yyz">
+                                <rect key="frame" x="159" y="298" width="57" height="71.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDk-22-e85">
+                                        <rect key="frame" x="0.0" y="0.0" width="57" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqs-q6-wmo">
+                                        <rect key="frame" x="0.0" y="41.5" width="57" height="30"/>
+                                        <state key="normal" title="Dang Ky"/>
+                                        <connections>
+                                            <segue destination="9DN-JZ-Lxw" kind="show" id="cpo-aX-fd1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.26626920339999999" green="1" blue="0.23779060939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bxA-6f-Yyz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1OC-zI-FSW"/>
+                            <constraint firstItem="bxA-6f-Yyz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Smu-Z7-Qn1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="PDk-22-e85" id="OPt-sE-33n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Phat View Controller-->
+        <scene sceneID="KU0-aP-flt">
+            <objects>
+                <viewController id="9DN-JZ-Lxw" customClass="PhatViewController" customModule="KienNoti2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kUK-Ag-sX9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GBF-m4-Eo7">
+                                <rect key="frame" x="0.0" y="299.5" width="375" height="68"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Up3-4Q-13q">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ur-ty-ZYX">
+                                        <rect key="frame" x="171.5" y="38" width="32" height="30"/>
+                                        <state key="normal" title="Phat"/>
+                                        <connections>
+                                            <action selector="phatButton:" destination="9DN-JZ-Lxw" eventType="touchUpInside" id="WOm-3w-hR2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Up3-4Q-13q" firstAttribute="leading" secondItem="GBF-m4-Eo7" secondAttribute="leading" id="ICl-ja-CcB"/>
+                                    <constraint firstAttribute="trailing" secondItem="Up3-4Q-13q" secondAttribute="trailing" id="pJP-tS-odq"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97657311869999996" green="1" blue="0.071518465860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vqY-d3-GuL" firstAttribute="trailing" secondItem="GBF-m4-Eo7" secondAttribute="trailing" id="cBk-pP-rnt"/>
+                            <constraint firstItem="GBF-m4-Eo7" firstAttribute="leading" secondItem="vqY-d3-GuL" secondAttribute="leading" id="hDb-H7-BzL"/>
+                            <constraint firstItem="GBF-m4-Eo7" firstAttribute="centerY" secondItem="kUK-Ag-sX9" secondAttribute="centerY" id="pjH-Gc-S68"/>
+                            <constraint firstItem="GBF-m4-Eo7" firstAttribute="centerX" secondItem="kUK-Ag-sX9" secondAttribute="centerX" id="ut9-0e-tkz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vqY-d3-GuL"/>
+                    </view>
+                    <connections>
+                        <outlet property="phatTextField" destination="Up3-4Q-13q" id="nHK-hS-HkS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KXc-IJ-3uf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862" y="137"/>
+        </scene>
+    </scenes>
+</document>
