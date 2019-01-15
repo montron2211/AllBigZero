@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE3F83D21B2781900F5DA88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3F83C21B2781900F5DA88 /* AppDelegate.swift */; };
+		CEE3F83F21B2781900F5DA88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3F83E21B2781900F5DA88 /* ViewController.swift */; };
+		CEE3F84221B2781900F5DA88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE3F84021B2781900F5DA88 /* Main.storyboard */; };
+		CEE3F84421B2781A00F5DA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE3F84321B2781A00F5DA88 /* Assets.xcassets */; };
+		CEE3F84721B2781A00F5DA88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE3F84521B2781A00F5DA88 /* LaunchScreen.storyboard */; };
+		CEE3F85221B2781A00F5DA88 /* Kien_Self_SizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3F85121B2781A00F5DA88 /* Kien_Self_SizingTests.swift */; };
+		CEE3F85D21B2793B00F5DA88 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3F85C21B2793B00F5DA88 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE3F84E21B2781A00F5DA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE3F83121B2781900F5DA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE3F83821B2781900F5DA88;
+			remoteInfo = "Kien Self-Sizing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE3F83921B2781900F5DA88 /* Kien Self-Sizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kien Self-Sizing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE3F83C21B2781900F5DA88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE3F83E21B2781900F5DA88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE3F84121B2781900F5DA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE3F84321B2781A00F5DA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE3F84621B2781A00F5DA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE3F84821B2781A00F5DA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE3F84D21B2781A00F5DA88 /* Kien Self-SizingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kien Self-SizingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE3F85121B2781A00F5DA88 /* Kien_Self_SizingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kien_Self_SizingTests.swift; sourceTree = "<group>"; };
+		CEE3F85321B2781A00F5DA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE3F85C21B2793B00F5DA88 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE3F83621B2781900F5DA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE3F84A21B2781A00F5DA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE3F83021B2781900F5DA88 = {
+			isa = PBXGroup;
+			children = (
+				CEE3F83B21B2781900F5DA88 /* Kien Self-Sizing */,
+				CEE3F85021B2781A00F5DA88 /* Kien Self-SizingTests */,
+				CEE3F83A21B2781900F5DA88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE3F83A21B2781900F5DA88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3F83921B2781900F5DA88 /* Kien Self-Sizing.app */,
+				CEE3F84D21B2781A00F5DA88 /* Kien Self-SizingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE3F83B21B2781900F5DA88 /* Kien Self-Sizing */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3F83C21B2781900F5DA88 /* AppDelegate.swift */,
+				CEE3F83E21B2781900F5DA88 /* ViewController.swift */,
+				CEE3F85C21B2793B00F5DA88 /* TableViewCell.swift */,
+				CEE3F84021B2781900F5DA88 /* Main.storyboard */,
+				CEE3F84321B2781A00F5DA88 /* Assets.xcassets */,
+				CEE3F84521B2781A00F5DA88 /* LaunchScreen.storyboard */,
+				CEE3F84821B2781A00F5DA88 /* Info.plist */,
+			);
+			path = "Kien Self-Sizing";
+			sourceTree = "<group>";
+		};
+		CEE3F85021B2781A00F5DA88 /* Kien Self-SizingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3F85121B2781A00F5DA88 /* Kien_Self_SizingTests.swift */,
+				CEE3F85321B2781A00F5DA88 /* Info.plist */,
+			);
+			path = "Kien Self-SizingTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE3F83821B2781900F5DA88 /* Kien Self-Sizing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE3F85621B2781A00F5DA88 /* Build configuration list for PBXNativeTarget "Kien Self-Sizing" */;
+			buildPhases = (
+				CEE3F83521B2781900F5DA88 /* Sources */,
+				CEE3F83621B2781900F5DA88 /* Frameworks */,
+				CEE3F83721B2781900F5DA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kien Self-Sizing";
+			productName = "Kien Self-Sizing";
+			productReference = CEE3F83921B2781900F5DA88 /* Kien Self-Sizing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE3F84C21B2781A00F5DA88 /* Kien Self-SizingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE3F85921B2781A00F5DA88 /* Build configuration list for PBXNativeTarget "Kien Self-SizingTests" */;
+			buildPhases = (
+				CEE3F84921B2781A00F5DA88 /* Sources */,
+				CEE3F84A21B2781A00F5DA88 /* Frameworks */,
+				CEE3F84B21B2781A00F5DA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE3F84F21B2781A00F5DA88 /* PBXTargetDependency */,
+			);
+			name = "Kien Self-SizingTests";
+			productName = "Kien Self-SizingTests";
+			productReference = CEE3F84D21B2781A00F5DA88 /* Kien Self-SizingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE3F83121B2781900F5DA88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = duycuong;
+				TargetAttributes = {
+					CEE3F83821B2781900F5DA88 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CEE3F84C21B2781A00F5DA88 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CEE3F83821B2781900F5DA88;
+					};
+				};
+			};
+			buildConfigurationList = CEE3F83421B2781900F5DA88 /* Build configuration list for PBXProject "Kien Self-Sizing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE3F83021B2781900F5DA88;
+			productRefGroup = CEE3F83A21B2781900F5DA88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE3F83821B2781900F5DA88 /* Kien Self-Sizing */,
+				CEE3F84C21B2781A00F5DA88 /* Kien Self-SizingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE3F83721B2781900F5DA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE3F84721B2781A00F5DA88 /* LaunchScreen.storyboard in Resources */,
+				CEE3F84421B2781A00F5DA88 /* Assets.xcassets in Resources */,
+				CEE3F84221B2781900F5DA88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE3F84B21B2781A00F5DA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE3F83521B2781900F5DA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE3F83F21B2781900F5DA88 /* ViewController.swift in Sources */,
+				CEE3F83D21B2781900F5DA88 /* AppDelegate.swift in Sources */,
+				CEE3F85D21B2793B00F5DA88 /* TableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE3F84921B2781A00F5DA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE3F85221B2781A00F5DA88 /* Kien_Self_SizingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE3F84F21B2781A00F5DA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE3F83821B2781900F5DA88 /* Kien Self-Sizing */;
+			targetProxy = CEE3F84E21B2781A00F5DA88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE3F84021B2781900F5DA88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE3F84121B2781900F5DA88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE3F84521B2781A00F5DA88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE3F84621B2781A00F5DA88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE3F85421B2781A00F5DA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE3F85521B2781A00F5DA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE3F85721B2781A00F5DA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien Self-Sizing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-Self-Sizing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE3F85821B2781A00F5DA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien Self-Sizing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-Self-Sizing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE3F85A21B2781A00F5DA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien Self-SizingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-Self-SizingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kien Self-Sizing.app/Kien Self-Sizing";
+			};
+			name = Debug;
+		};
+		CEE3F85B21B2781A00F5DA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien Self-SizingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-Self-SizingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kien Self-Sizing.app/Kien Self-Sizing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE3F83421B2781900F5DA88 /* Build configuration list for PBXProject "Kien Self-Sizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE3F85421B2781A00F5DA88 /* Debug */,
+				CEE3F85521B2781A00F5DA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE3F85621B2781A00F5DA88 /* Build configuration list for PBXNativeTarget "Kien Self-Sizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE3F85721B2781A00F5DA88 /* Debug */,
+				CEE3F85821B2781A00F5DA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE3F85921B2781A00F5DA88 /* Build configuration list for PBXNativeTarget "Kien Self-SizingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE3F85A21B2781A00F5DA88 /* Debug */,
+				CEE3F85B21B2781A00F5DA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE3F83121B2781900F5DA88 /* Project object */;
+}

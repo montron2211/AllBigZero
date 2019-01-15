@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE55ECFB21AD3DF00031D705 /* QuotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55ECFA21AD3DF00031D705 /* QuotesTableViewCell.swift */; };
+		CEF0036F21A5496900876F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0036E21A5496900876F2D /* AppDelegate.swift */; };
+		CEF0037121A5496900876F2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0037021A5496900876F2D /* ViewController.swift */; };
+		CEF0037421A5496900876F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF0037221A5496900876F2D /* Main.storyboard */; };
+		CEF0037621A5496A00876F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF0037521A5496A00876F2D /* Assets.xcassets */; };
+		CEF0037921A5496A00876F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF0037721A5496A00876F2D /* LaunchScreen.storyboard */; };
+		CEF0038421A5496A00876F2D /* Kien_Self_Sizing_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0038321A5496A00876F2D /* Kien_Self_Sizing_1Tests.swift */; };
+		CEF0038F21A5496A00876F2D /* Kien_Self_Sizing_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0038E21A5496A00876F2D /* Kien_Self_Sizing_1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF0038021A5496A00876F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0036321A5496900876F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF0036A21A5496900876F2D;
+			remoteInfo = "Kien Self-Sizing 1";
+		};
+		CEF0038B21A5496A00876F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0036321A5496900876F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF0036A21A5496900876F2D;
+			remoteInfo = "Kien Self-Sizing 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE55ECFA21AD3DF00031D705 /* QuotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesTableViewCell.swift; sourceTree = "<group>"; };
+		CEF0036B21A5496900876F2D /* Kien Self-Sizing 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kien Self-Sizing 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF0036E21A5496900876F2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF0037021A5496900876F2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF0037321A5496900876F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF0037521A5496A00876F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF0037821A5496A00876F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF0037A21A5496A00876F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF0037F21A5496A00876F2D /* Kien Self-Sizing 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kien Self-Sizing 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF0038321A5496A00876F2D /* Kien_Self_Sizing_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kien_Self_Sizing_1Tests.swift; sourceTree = "<group>"; };
+		CEF0038521A5496A00876F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF0038A21A5496A00876F2D /* Kien Self-Sizing 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kien Self-Sizing 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF0038E21A5496A00876F2D /* Kien_Self_Sizing_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kien_Self_Sizing_1UITests.swift; sourceTree = "<group>"; };
+		CEF0039021A5496A00876F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF0036821A5496900876F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0037C21A5496A00876F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0038721A5496A00876F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF0036221A5496900876F2D = {
+			isa = PBXGroup;
+			children = (
+				CEF0036D21A5496900876F2D /* Kien Self-Sizing 1 */,
+				CEF0038221A5496A00876F2D /* Kien Self-Sizing 1Tests */,
+				CEF0038D21A5496A00876F2D /* Kien Self-Sizing 1UITests */,
+				CEF0036C21A5496900876F2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF0036C21A5496900876F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0036B21A5496900876F2D /* Kien Self-Sizing 1.app */,
+				CEF0037F21A5496A00876F2D /* Kien Self-Sizing 1Tests.xctest */,
+				CEF0038A21A5496A00876F2D /* Kien Self-Sizing 1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF0036D21A5496900876F2D /* Kien Self-Sizing 1 */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0036E21A5496900876F2D /* AppDelegate.swift */,
+				CEF0037021A5496900876F2D /* ViewController.swift */,
+				CE55ECFA21AD3DF00031D705 /* QuotesTableViewCell.swift */,
+				CEF0037221A5496900876F2D /* Main.storyboard */,
+				CEF0037521A5496A00876F2D /* Assets.xcassets */,
+				CEF0037721A5496A00876F2D /* LaunchScreen.storyboard */,
+				CEF0037A21A5496A00876F2D /* Info.plist */,
+			);
+			path = "Kien Self-Sizing 1";
+			sourceTree = "<group>";
+		};
+		CEF0038221A5496A00876F2D /* Kien Self-Sizing 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0038321A5496A00876F2D /* Kien_Self_Sizing_1Tests.swift */,
+				CEF0038521A5496A00876F2D /* Info.plist */,
+			);
+			path = "Kien Self-Sizing 1Tests";
+			sourceTree = "<group>";
+		};
+		CEF0038D21A5496A00876F2D /* Kien Self-Sizing 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0038E21A5496A00876F2D /* Kien_Self_Sizing_1UITests.swift */,
+				CEF0039021A5496A00876F2D /* Info.plist */,
+			);
+			path = "Kien Self-Sizing 1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF0036A21A5496900876F2D /* Kien Self-Sizing 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF0039321A5496A00876F2D /* Build configuration list for PBXNativeTarget "Kien Self-Sizing 1" */;
+			buildPhases = (
+				CEF0036721A5496900876F2D /* Sources */,
+				CEF0036821A5496900876F2D /* Frameworks */,
+				CEF0036921A5496900876F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kien Self-Sizing 1";
+			productName = "Kien Self-Sizing 1";
+			productReference = CEF0036B21A5496900876F2D /* Kien Self-Sizing 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF0037E21A5496A00876F2D /* Kien Self-Sizing 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF0039621A5496A00876F2D /* Build configuration list for PBXNativeTarget "Kien Self-Sizing 1Tests" */;
+			buildPhases = (
+				CEF0037B21A5496A00876F2D /* Sources */,
+				CEF0037C21A5496A00876F2D /* Frameworks */,
+				CEF0037D21A5496A00876F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF0038121A5496A00876F2D /* PBXTargetDependency */,
+			);
+			name = "Kien Self-Sizing 1Tests";
+			productName = "Kien Self-Sizing 1Tests";
+			productReference = CEF0037F21A5496A00876F2D /* Kien Self-Sizing 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF0038921A5496A00876F2D /* Kien Self-Sizing 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF0039921A5496A00876F2D /* Build configuration list for PBXNativeTarget "Kien Self-Sizing 1UITests" */;
+			buildPhases = (
+				CEF0038621A5496A00876F2D /* Sources */,
+				CEF0038721A5496A00876F2D /* Frameworks */,
+				CEF0038821A5496A00876F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF0038C21A5496A00876F2D /* PBXTargetDependency */,
+			);
+			name = "Kien Self-Sizing 1UITests";
+			productName = "Kien Self-Sizing 1UITests";
+			productReference = CEF0038A21A5496A00876F2D /* Kien Self-Sizing 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF0036321A5496900876F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = duycuong;
+				TargetAttributes = {
+					CEF0036A21A5496900876F2D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CEF0037E21A5496A00876F2D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CEF0036A21A5496900876F2D;
+					};
+					CEF0038921A5496A00876F2D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CEF0036A21A5496900876F2D;
+					};
+				};
+			};
+			buildConfigurationList = CEF0036621A5496900876F2D /* Build configuration list for PBXProject "Kien Self-Sizing 1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF0036221A5496900876F2D;
+			productRefGroup = CEF0036C21A5496900876F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF0036A21A5496900876F2D /* Kien Self-Sizing 1 */,
+				CEF0037E21A5496A00876F2D /* Kien Self-Sizing 1Tests */,
+				CEF0038921A5496A00876F2D /* Kien Self-Sizing 1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF0036921A5496900876F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0037921A5496A00876F2D /* LaunchScreen.storyboard in Resources */,
+				CEF0037621A5496A00876F2D /* Assets.xcassets in Resources */,
+				CEF0037421A5496900876F2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0037D21A5496A00876F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0038821A5496A00876F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF0036721A5496900876F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0037121A5496900876F2D /* ViewController.swift in Sources */,
+				CEF0036F21A5496900876F2D /* AppDelegate.swift in Sources */,
+				CE55ECFB21AD3DF00031D705 /* QuotesTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0037B21A5496A00876F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0038421A5496A00876F2D /* Kien_Self_Sizing_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0038621A5496A00876F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0038F21A5496A00876F2D /* Kien_Self_Sizing_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF0038121A5496A00876F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF0036A21A5496900876F2D /* Kien Self-Sizing 1 */;
+			targetProxy = CEF0038021A5496A00876F2D /* PBXContainerItemProxy */;
+		};
+		CEF0038C21A5496A00876F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF0036A21A5496900876F2D /* Kien Self-Sizing 1 */;
+			targetProxy = CEF0038B21A5496A00876F2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF0037221A5496900876F2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF0037321A5496900876F2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF0037721A5496A00876F2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF0037821A5496A00876F2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF0039121A5496A00876F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF0039221A5496A00876F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF0039421A5496A00876F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien Self-Sizing 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-Self-Sizing-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF0039521A5496A00876F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien Self-Sizing 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-Self-Sizing-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEF0039721A5496A00876F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien Self-Sizing 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-Self-Sizing-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kien Self-Sizing 1.app/Kien Self-Sizing 1";
+			};
+			name = Debug;
+		};
+		CEF0039821A5496A00876F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien Self-Sizing 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-Self-Sizing-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kien Self-Sizing 1.app/Kien Self-Sizing 1";
+			};
+			name = Release;
+		};
+		CEF0039A21A5496A00876F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien Self-Sizing 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-Self-Sizing-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kien Self-Sizing 1";
+			};
+			name = Debug;
+		};
+		CEF0039B21A5496A00876F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien Self-Sizing 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-Self-Sizing-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kien Self-Sizing 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF0036621A5496900876F2D /* Build configuration list for PBXProject "Kien Self-Sizing 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF0039121A5496A00876F2D /* Debug */,
+				CEF0039221A5496A00876F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF0039321A5496A00876F2D /* Build configuration list for PBXNativeTarget "Kien Self-Sizing 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF0039421A5496A00876F2D /* Debug */,
+				CEF0039521A5496A00876F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF0039621A5496A00876F2D /* Build configuration list for PBXNativeTarget "Kien Self-Sizing 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF0039721A5496A00876F2D /* Debug */,
+				CEF0039821A5496A00876F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF0039921A5496A00876F2D /* Build configuration list for PBXNativeTarget "Kien Self-Sizing 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF0039A21A5496A00876F2D /* Debug */,
+				CEF0039B21A5496A00876F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF0036321A5496900876F2D /* Project object */;
+}

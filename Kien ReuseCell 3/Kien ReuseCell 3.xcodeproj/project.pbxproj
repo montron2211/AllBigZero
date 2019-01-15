@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF0033321A545A900876F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0033221A545A900876F2D /* AppDelegate.swift */; };
+		CEF0033521A545A900876F2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0033421A545A900876F2D /* ViewController.swift */; };
+		CEF0033821A545A900876F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF0033621A545A900876F2D /* Main.storyboard */; };
+		CEF0033A21A545AA00876F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF0033921A545AA00876F2D /* Assets.xcassets */; };
+		CEF0033D21A545AA00876F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF0033B21A545AA00876F2D /* LaunchScreen.storyboard */; };
+		CEF0034821A545AA00876F2D /* Kien_ReuseCell_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0034721A545AA00876F2D /* Kien_ReuseCell_3Tests.swift */; };
+		CEF0035321A545AA00876F2D /* Kien_ReuseCell_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0035221A545AA00876F2D /* Kien_ReuseCell_3UITests.swift */; };
+		CEF0036121A545B600876F2D /* Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0036021A545B600876F2D /* Subtitle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF0034421A545AA00876F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0032721A545A900876F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF0032E21A545A900876F2D;
+			remoteInfo = "Kien ReuseCell 3";
+		};
+		CEF0034F21A545AA00876F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF0032721A545A900876F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF0032E21A545A900876F2D;
+			remoteInfo = "Kien ReuseCell 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF0032F21A545A900876F2D /* Kien ReuseCell 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kien ReuseCell 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF0033221A545A900876F2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF0033421A545A900876F2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF0033721A545A900876F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF0033921A545AA00876F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF0033C21A545AA00876F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF0033E21A545AA00876F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF0034321A545AA00876F2D /* Kien ReuseCell 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kien ReuseCell 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF0034721A545AA00876F2D /* Kien_ReuseCell_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kien_ReuseCell_3Tests.swift; sourceTree = "<group>"; };
+		CEF0034921A545AA00876F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF0034E21A545AA00876F2D /* Kien ReuseCell 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kien ReuseCell 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF0035221A545AA00876F2D /* Kien_ReuseCell_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kien_ReuseCell_3UITests.swift; sourceTree = "<group>"; };
+		CEF0035421A545AA00876F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF0036021A545B600876F2D /* Subtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtitle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF0032C21A545A900876F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0034021A545AA00876F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0034B21A545AA00876F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF0032621A545A900876F2D = {
+			isa = PBXGroup;
+			children = (
+				CEF0033121A545A900876F2D /* Kien ReuseCell 3 */,
+				CEF0034621A545AA00876F2D /* Kien ReuseCell 3Tests */,
+				CEF0035121A545AA00876F2D /* Kien ReuseCell 3UITests */,
+				CEF0033021A545A900876F2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF0033021A545A900876F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0032F21A545A900876F2D /* Kien ReuseCell 3.app */,
+				CEF0034321A545AA00876F2D /* Kien ReuseCell 3Tests.xctest */,
+				CEF0034E21A545AA00876F2D /* Kien ReuseCell 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF0033121A545A900876F2D /* Kien ReuseCell 3 */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0033221A545A900876F2D /* AppDelegate.swift */,
+				CEF0033421A545A900876F2D /* ViewController.swift */,
+				CEF0036021A545B600876F2D /* Subtitle.swift */,
+				CEF0033621A545A900876F2D /* Main.storyboard */,
+				CEF0033921A545AA00876F2D /* Assets.xcassets */,
+				CEF0033B21A545AA00876F2D /* LaunchScreen.storyboard */,
+				CEF0033E21A545AA00876F2D /* Info.plist */,
+			);
+			path = "Kien ReuseCell 3";
+			sourceTree = "<group>";
+		};
+		CEF0034621A545AA00876F2D /* Kien ReuseCell 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0034721A545AA00876F2D /* Kien_ReuseCell_3Tests.swift */,
+				CEF0034921A545AA00876F2D /* Info.plist */,
+			);
+			path = "Kien ReuseCell 3Tests";
+			sourceTree = "<group>";
+		};
+		CEF0035121A545AA00876F2D /* Kien ReuseCell 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0035221A545AA00876F2D /* Kien_ReuseCell_3UITests.swift */,
+				CEF0035421A545AA00876F2D /* Info.plist */,
+			);
+			path = "Kien ReuseCell 3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF0032E21A545A900876F2D /* Kien ReuseCell 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF0035721A545AA00876F2D /* Build configuration list for PBXNativeTarget "Kien ReuseCell 3" */;
+			buildPhases = (
+				CEF0032B21A545A900876F2D /* Sources */,
+				CEF0032C21A545A900876F2D /* Frameworks */,
+				CEF0032D21A545A900876F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kien ReuseCell 3";
+			productName = "Kien ReuseCell 3";
+			productReference = CEF0032F21A545A900876F2D /* Kien ReuseCell 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF0034221A545AA00876F2D /* Kien ReuseCell 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF0035A21A545AA00876F2D /* Build configuration list for PBXNativeTarget "Kien ReuseCell 3Tests" */;
+			buildPhases = (
+				CEF0033F21A545AA00876F2D /* Sources */,
+				CEF0034021A545AA00876F2D /* Frameworks */,
+				CEF0034121A545AA00876F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF0034521A545AA00876F2D /* PBXTargetDependency */,
+			);
+			name = "Kien ReuseCell 3Tests";
+			productName = "Kien ReuseCell 3Tests";
+			productReference = CEF0034321A545AA00876F2D /* Kien ReuseCell 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF0034D21A545AA00876F2D /* Kien ReuseCell 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF0035D21A545AA00876F2D /* Build configuration list for PBXNativeTarget "Kien ReuseCell 3UITests" */;
+			buildPhases = (
+				CEF0034A21A545AA00876F2D /* Sources */,
+				CEF0034B21A545AA00876F2D /* Frameworks */,
+				CEF0034C21A545AA00876F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF0035021A545AA00876F2D /* PBXTargetDependency */,
+			);
+			name = "Kien ReuseCell 3UITests";
+			productName = "Kien ReuseCell 3UITests";
+			productReference = CEF0034E21A545AA00876F2D /* Kien ReuseCell 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF0032721A545A900876F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = duycuong;
+				TargetAttributes = {
+					CEF0032E21A545A900876F2D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CEF0034221A545AA00876F2D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CEF0032E21A545A900876F2D;
+					};
+					CEF0034D21A545AA00876F2D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CEF0032E21A545A900876F2D;
+					};
+				};
+			};
+			buildConfigurationList = CEF0032A21A545A900876F2D /* Build configuration list for PBXProject "Kien ReuseCell 3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF0032621A545A900876F2D;
+			productRefGroup = CEF0033021A545A900876F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF0032E21A545A900876F2D /* Kien ReuseCell 3 */,
+				CEF0034221A545AA00876F2D /* Kien ReuseCell 3Tests */,
+				CEF0034D21A545AA00876F2D /* Kien ReuseCell 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF0032D21A545A900876F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0033D21A545AA00876F2D /* LaunchScreen.storyboard in Resources */,
+				CEF0033A21A545AA00876F2D /* Assets.xcassets in Resources */,
+				CEF0033821A545A900876F2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0034121A545AA00876F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0034C21A545AA00876F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF0032B21A545A900876F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0036121A545B600876F2D /* Subtitle.swift in Sources */,
+				CEF0033521A545A900876F2D /* ViewController.swift in Sources */,
+				CEF0033321A545A900876F2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0033F21A545AA00876F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0034821A545AA00876F2D /* Kien_ReuseCell_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF0034A21A545AA00876F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0035321A545AA00876F2D /* Kien_ReuseCell_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF0034521A545AA00876F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF0032E21A545A900876F2D /* Kien ReuseCell 3 */;
+			targetProxy = CEF0034421A545AA00876F2D /* PBXContainerItemProxy */;
+		};
+		CEF0035021A545AA00876F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF0032E21A545A900876F2D /* Kien ReuseCell 3 */;
+			targetProxy = CEF0034F21A545AA00876F2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF0033621A545A900876F2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF0033721A545A900876F2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF0033B21A545AA00876F2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF0033C21A545AA00876F2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF0035521A545AA00876F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF0035621A545AA00876F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF0035821A545AA00876F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien ReuseCell 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-ReuseCell-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF0035921A545AA00876F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien ReuseCell 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-ReuseCell-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEF0035B21A545AA00876F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien ReuseCell 3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-ReuseCell-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kien ReuseCell 3.app/Kien ReuseCell 3";
+			};
+			name = Debug;
+		};
+		CEF0035C21A545AA00876F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien ReuseCell 3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-ReuseCell-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kien ReuseCell 3.app/Kien ReuseCell 3";
+			};
+			name = Release;
+		};
+		CEF0035E21A545AA00876F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien ReuseCell 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-ReuseCell-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kien ReuseCell 3";
+			};
+			name = Debug;
+		};
+		CEF0035F21A545AA00876F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kien ReuseCell 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "duycuongB0.Kien-ReuseCell-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kien ReuseCell 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF0032A21A545A900876F2D /* Build configuration list for PBXProject "Kien ReuseCell 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF0035521A545AA00876F2D /* Debug */,
+				CEF0035621A545AA00876F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF0035721A545AA00876F2D /* Build configuration list for PBXNativeTarget "Kien ReuseCell 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF0035821A545AA00876F2D /* Debug */,
+				CEF0035921A545AA00876F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF0035A21A545AA00876F2D /* Build configuration list for PBXNativeTarget "Kien ReuseCell 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF0035B21A545AA00876F2D /* Debug */,
+				CEF0035C21A545AA00876F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF0035D21A545AA00876F2D /* Build configuration list for PBXNativeTarget "Kien ReuseCell 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF0035E21A545AA00876F2D /* Debug */,
+				CEF0035F21A545AA00876F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF0032721A545A900876F2D /* Project object */;
+}

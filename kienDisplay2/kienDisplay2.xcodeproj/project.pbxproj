@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEEA961A21917EAD009FE791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA961921917EAD009FE791 /* AppDelegate.swift */; };
+		CEEA961C21917EAD009FE791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA961B21917EAD009FE791 /* ViewController.swift */; };
+		CEEA961F21917EAD009FE791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA961D21917EAD009FE791 /* Main.storyboard */; };
+		CEEA962121917EAD009FE791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEA962021917EAD009FE791 /* Assets.xcassets */; };
+		CEEA962421917EAD009FE791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA962221917EAD009FE791 /* LaunchScreen.storyboard */; };
+		CEEA962F21917EAD009FE791 /* kienDisplay2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA962E21917EAD009FE791 /* kienDisplay2Tests.swift */; };
+		CEEA963A21917EAD009FE791 /* kienDisplay2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA963921917EAD009FE791 /* kienDisplay2UITests.swift */; };
+		CEEA964821917F17009FE791 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA964721917F17009FE791 /* TableViewController.swift */; };
+		CEEA964A21917F24009FE791 /* dataString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA964921917F24009FE791 /* dataString.swift */; };
+		CEEA964C21917F2C009FE791 /* dataInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA964B21917F2C009FE791 /* dataInt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEEA962B21917EAD009FE791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEA960E21917EAD009FE791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEA961521917EAD009FE791;
+			remoteInfo = kienDisplay2;
+		};
+		CEEA963621917EAD009FE791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEA960E21917EAD009FE791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEA961521917EAD009FE791;
+			remoteInfo = kienDisplay2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEEA961621917EAD009FE791 /* kienDisplay2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kienDisplay2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA961921917EAD009FE791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEEA961B21917EAD009FE791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEEA961E21917EAD009FE791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEEA962021917EAD009FE791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEEA962321917EAD009FE791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEEA962521917EAD009FE791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEA962A21917EAD009FE791 /* kienDisplay2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kienDisplay2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA962E21917EAD009FE791 /* kienDisplay2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kienDisplay2Tests.swift; sourceTree = "<group>"; };
+		CEEA963021917EAD009FE791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEA963521917EAD009FE791 /* kienDisplay2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kienDisplay2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA963921917EAD009FE791 /* kienDisplay2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kienDisplay2UITests.swift; sourceTree = "<group>"; };
+		CEEA963B21917EAD009FE791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEA964721917F17009FE791 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CEEA964921917F24009FE791 /* dataString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataString.swift; sourceTree = "<group>"; };
+		CEEA964B21917F2C009FE791 /* dataInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataInt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEEA961321917EAD009FE791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA962721917EAD009FE791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA963221917EAD009FE791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEEA960D21917EAD009FE791 = {
+			isa = PBXGroup;
+			children = (
+				CEEA961821917EAD009FE791 /* kienDisplay2 */,
+				CEEA962D21917EAD009FE791 /* kienDisplay2Tests */,
+				CEEA963821917EAD009FE791 /* kienDisplay2UITests */,
+				CEEA961721917EAD009FE791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEA961721917EAD009FE791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA961621917EAD009FE791 /* kienDisplay2.app */,
+				CEEA962A21917EAD009FE791 /* kienDisplay2Tests.xctest */,
+				CEEA963521917EAD009FE791 /* kienDisplay2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEA961821917EAD009FE791 /* kienDisplay2 */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA961921917EAD009FE791 /* AppDelegate.swift */,
+				CEEA961D21917EAD009FE791 /* Main.storyboard */,
+				CEEA964721917F17009FE791 /* TableViewController.swift */,
+				CEEA961B21917EAD009FE791 /* ViewController.swift */,
+				CEEA964921917F24009FE791 /* dataString.swift */,
+				CEEA964B21917F2C009FE791 /* dataInt.swift */,
+				CEEA962021917EAD009FE791 /* Assets.xcassets */,
+				CEEA962221917EAD009FE791 /* LaunchScreen.storyboard */,
+				CEEA962521917EAD009FE791 /* Info.plist */,
+			);
+			path = kienDisplay2;
+			sourceTree = "<group>";
+		};
+		CEEA962D21917EAD009FE791 /* kienDisplay2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA962E21917EAD009FE791 /* kienDisplay2Tests.swift */,
+				CEEA963021917EAD009FE791 /* Info.plist */,
+			);
+			path = kienDisplay2Tests;
+			sourceTree = "<group>";
+		};
+		CEEA963821917EAD009FE791 /* kienDisplay2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA963921917EAD009FE791 /* kienDisplay2UITests.swift */,
+				CEEA963B21917EAD009FE791 /* Info.plist */,
+			);
+			path = kienDisplay2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEEA961521917EAD009FE791 /* kienDisplay2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEA963E21917EAD009FE791 /* Build configuration list for PBXNativeTarget "kienDisplay2" */;
+			buildPhases = (
+				CEEA961221917EAD009FE791 /* Sources */,
+				CEEA961321917EAD009FE791 /* Frameworks */,
+				CEEA961421917EAD009FE791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kienDisplay2;
+			productName = kienDisplay2;
+			productReference = CEEA961621917EAD009FE791 /* kienDisplay2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEEA962921917EAD009FE791 /* kienDisplay2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEA964121917EAD009FE791 /* Build configuration list for PBXNativeTarget "kienDisplay2Tests" */;
+			buildPhases = (
+				CEEA962621917EAD009FE791 /* Sources */,
+				CEEA962721917EAD009FE791 /* Frameworks */,
+				CEEA962821917EAD009FE791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEEA962C21917EAD009FE791 /* PBXTargetDependency */,
+			);
+			name = kienDisplay2Tests;
+			productName = kienDisplay2Tests;
+			productReference = CEEA962A21917EAD009FE791 /* kienDisplay2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEEA963421917EAD009FE791 /* kienDisplay2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEA964421917EAD009FE791 /* Build configuration list for PBXNativeTarget "kienDisplay2UITests" */;
+			buildPhases = (
+				CEEA963121917EAD009FE791 /* Sources */,
+				CEEA963221917EAD009FE791 /* Frameworks */,
+				CEEA963321917EAD009FE791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEEA963721917EAD009FE791 /* PBXTargetDependency */,
+			);
+			name = kienDisplay2UITests;
+			productName = kienDisplay2UITests;
+			productReference = CEEA963521917EAD009FE791 /* kienDisplay2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEEA960E21917EAD009FE791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = duycuong;
+				TargetAttributes = {
+					CEEA961521917EAD009FE791 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CEEA962921917EAD009FE791 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CEEA961521917EAD009FE791;
+					};
+					CEEA963421917EAD009FE791 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CEEA961521917EAD009FE791;
+					};
+				};
+			};
+			buildConfigurationList = CEEA961121917EAD009FE791 /* Build configuration list for PBXProject "kienDisplay2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEEA960D21917EAD009FE791;
+			productRefGroup = CEEA961721917EAD009FE791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEEA961521917EAD009FE791 /* kienDisplay2 */,
+				CEEA962921917EAD009FE791 /* kienDisplay2Tests */,
+				CEEA963421917EAD009FE791 /* kienDisplay2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEEA961421917EAD009FE791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEA962421917EAD009FE791 /* LaunchScreen.storyboard in Resources */,
+				CEEA962121917EAD009FE791 /* Assets.xcassets in Resources */,
+				CEEA961F21917EAD009FE791 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA962821917EAD009FE791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA963321917EAD009FE791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEEA961221917EAD009FE791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEA964A21917F24009FE791 /* dataString.swift in Sources */,
+				CEEA964C21917F2C009FE791 /* dataInt.swift in Sources */,
+				CEEA961C21917EAD009FE791 /* ViewController.swift in Sources */,
+				CEEA964821917F17009FE791 /* TableViewController.swift in Sources */,
+				CEEA961A21917EAD009FE791 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA962621917EAD009FE791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEA962F21917EAD009FE791 /* kienDisplay2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA963121917EAD009FE791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEA963A21917EAD009FE791 /* kienDisplay2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEEA962C21917EAD009FE791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEA961521917EAD009FE791 /* kienDisplay2 */;
+			targetProxy = CEEA962B21917EAD009FE791 /* PBXContainerItemProxy */;
+		};
+		CEEA963721917EAD009FE791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEA961521917EAD009FE791 /* kienDisplay2 */;
+			targetProxy = CEEA963621917EAD009FE791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEEA961D21917EAD009FE791 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEA961E21917EAD009FE791 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEEA962221917EAD009FE791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEA962321917EAD009FE791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEEA963C21917EAD009FE791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEEA963D21917EAD009FE791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEEA963F21917EAD009FE791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kienDisplay2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duycuongB0.kienDisplay2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEEA964021917EAD009FE791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kienDisplay2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duycuongB0.kienDisplay2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEEA964221917EAD009FE791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kienDisplay2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duycuongB0.kienDisplay2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kienDisplay2.app/kienDisplay2";
+			};
+			name = Debug;
+		};
+		CEEA964321917EAD009FE791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kienDisplay2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duycuongB0.kienDisplay2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kienDisplay2.app/kienDisplay2";
+			};
+			name = Release;
+		};
+		CEEA964521917EAD009FE791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kienDisplay2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duycuongB0.kienDisplay2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kienDisplay2;
+			};
+			name = Debug;
+		};
+		CEEA964621917EAD009FE791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kienDisplay2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duycuongB0.kienDisplay2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kienDisplay2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEEA961121917EAD009FE791 /* Build configuration list for PBXProject "kienDisplay2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA963C21917EAD009FE791 /* Debug */,
+				CEEA963D21917EAD009FE791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEA963E21917EAD009FE791 /* Build configuration list for PBXNativeTarget "kienDisplay2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA963F21917EAD009FE791 /* Debug */,
+				CEEA964021917EAD009FE791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEA964121917EAD009FE791 /* Build configuration list for PBXNativeTarget "kienDisplay2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA964221917EAD009FE791 /* Debug */,
+				CEEA964321917EAD009FE791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEA964421917EAD009FE791 /* Build configuration list for PBXNativeTarget "kienDisplay2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA964521917EAD009FE791 /* Debug */,
+				CEEA964621917EAD009FE791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEEA960E21917EAD009FE791 /* Project object */;
+}
